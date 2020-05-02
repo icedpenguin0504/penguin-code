@@ -3,13 +3,13 @@ bulma-stylus-root = '../../../../node_modules/bulma-stylus/stylus'
 /* ---------------------------------
  *   Override Bulma CSS Framework
  * --------------------------------- */
-$body-size ?= 14px
+$body-size ?= 16px
 $body-background-color ?= #f7f7f7
 
 $family-sans-serif ?= Ubuntu, Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif
 $family-code ?= 'Source Code Pro', monospace, 'Microsoft YaHei'
 
-$primary ?= #14AABF
+$primary ?= $cyan
 $custom-colors ?= {
     grey-lightest: {
         '1': $grey-lightest
@@ -20,7 +20,7 @@ $custom-colors ?= {
 $navbar-item-active-color ?= $primary
 $footer-background-color ?= $scheme-main
 
-$gap ?= 64px
+$gap ?= 0
 $tablet ?= 769px
 $desktop ?= 1088px
 $widescreen ?= 1280px

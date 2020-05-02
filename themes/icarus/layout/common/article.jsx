@@ -38,24 +38,25 @@ module.exports = class extends Component {
                 </div> : null}
                 {/* Metadata */}
                 <article class={`card-content article${'direction' in page ? ' ' + page.direction : ''}`} role="article">
-                    {page.layout !== 'page' ? <div class="article-meta size-small is-uppercase level is-mobile">
+                    {page.layout !== 'page' ? <div class="article-meta level is-mobile">
                         <div class="level-left">
                             {/* Date */}
+                            <i class="far fa-clock mr-1"></i>
                             <time class="level-item" dateTime={date_xml(page.date)} title={date_xml(page.date)}>{date(page.date)}</time>
                             {/* Categories */}
-                            {page.categories && page.categories.length ? <span class="level-item">
+                            {page.categories && page.categories.length ? <span class="level-item"><i class="far fa-folder mr-1"></i>
                                 {(() => {
                                     const categories = [];
                                     page.categories.forEach((category, i) => {
                                         categories.push(<a class="link-muted" href={url_for(category.path)}>{category.name}</a>);
                                         if (i < page.categories.length - 1) {
-                                            categories.push(<span>&nbsp;/&nbsp;</span>);
+                                            categories.push(<span>&nbsp;<i class="fas fa-angle-right"></i>&nbsp;</span>);
                                         }
                                     });
                                     return categories;
                                 })()}
                             </span> : null}
-                            {/* Read time */}                            
+                            {/* Read time */}
                             {article && article.readtime && article.readtime === true ? <span class="level-item">
                                 {(() => {
                                     const words = getWordCount(page._content);
@@ -70,13 +71,13 @@ module.exports = class extends Component {
                         </div>
                     </div> : null}
                     {/* Title */}
-                    <h1 class="title is-3 is-size-4-mobile">
+                    <h1 class="title is-2 is-size-3-mobile mb-5">
                         {index ? <a class="link-muted" href={url_for(page.link || page.path)}>{page.title}</a> : page.title}
                     </h1>
                     {/* Content/Excerpt */}
                     <div class="content" dangerouslySetInnerHTML={{ __html: index && page.excerpt ? page.excerpt : page.content }}></div>
                     {/* Tags */}
-                    {!index && page.tags && page.tags.length ? <div class="article-tags size-small is-uppercase mb-4">
+                    {!index && page.tags && page.tags.length ? <div class="article-tags size-small mb-4">
                         <span class="mr-2">#</span>
                         {page.tags.map(tag => {
                             return <a class="link-muted mr-2" rel="tag" href={url_for(tag.path)}>{tag.name}</a>;

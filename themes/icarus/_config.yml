@@ -3,7 +3,7 @@ version: 3.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo:
+logo: ''
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -86,7 +86,7 @@ navbar:
 # Page footer configurations
 footer:
     # Links to be shown on the right of the footer section
-    # links:
+    links:
     #     Creative Commons:
     #         icon: fab fa-creative-commons
     #         url: 'https://creativecommons.org/'
