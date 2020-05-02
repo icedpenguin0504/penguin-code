@@ -55,8 +55,7 @@ module.exports = class extends Component {
                                     return categories;
                                 })()}
                             </span> : null}
-                            {/* Read time */}
-                            {/*
+                            {/* Read time */}                            
                             {article && article.readtime && article.readtime === true ? <span class="level-item">
                                 {(() => {
                                     const words = getWordCount(page._content);
@@ -64,7 +63,6 @@ module.exports = class extends Component {
                                     return `${time.locale(index ? indexLaunguage : language).humanize()} ${__('article.read')} (${__('article.about')} ${words} ${__('article.words')})`;
                                 })()}
                             </span> : null}
-                            */}
                             {/* Visitor counter */}
                             {!index && plugins && plugins.busuanzi === true ? <span class="level-item" id="busuanzi_container_page_pv" dangerouslySetInnerHTML={{
                                 __html: '<i class="far fa-eye"></i>' + _p('plugin.visit', '&nbsp;&nbsp;<span id="busuanzi_value_page_pv">0</span>')
