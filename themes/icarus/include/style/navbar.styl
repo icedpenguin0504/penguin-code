@@ -37,6 +37,10 @@ $navbar-item-margin-h ?= 0
         &.is-active
             background-color: transparent
 
+        &:hover
+            background-color: inherit
+            color: $primary
+
     +until($navbar-breakpoint)
         .navbar-menu
             justify-content: center
