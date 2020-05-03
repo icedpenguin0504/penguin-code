@@ -9,10 +9,12 @@ class Profile extends Component {
         }
         return <div class="level is-mobile centered-slim-box">
             {links.filter(link => typeof link === 'object').map(link => {
-                return <a class="level-item button is-transparent is-marginless"
-                    target="_blank" rel="noopener" title={link.name} href={link.url}>
-                    {'icon' in link ? <i class={link.icon + ' is-size-3 text-gray'}></i> : link.name}
-                </a>;
+                return <div class="level-item is-marginless is-paddingless">
+                          <a class="button is-transparent is-paddingless"
+                          target="_blank" rel="noopener" title={link.name} href={link.url}>
+                          {'icon' in link ? <i class={link.icon + ' is-size-3 text-gray'}></i> : link.name}
+                          </a>
+                        </div>;
             })}
         </div>;
     }
