@@ -1,0 +1,51 @@
+---
+title: iterm2にNordテーマを適用してみた
+category:
+- Tech
+- ツール
+tags:
+- iterm2
+- nord
+---
+
+item2がすごいらしいとの噂だったので、ターミナルエミュレータをMac標準のものからiterm2に乗り換え、テーマをNordに変更しました。
+
+<!-- more -->
+
+# 環境
+
+- MacOS 10.15.5
+- iterm2 3.3.11
+
+# 手順
+
+[リポジトリ](https://github.com/arcticicestudio/nord-iterm2)のREADMEにきっちり書いてありますが、細かいところを補いながらインストールして適用するまでの手順をまとめます。
+
+1. 適当なデイレクトりにnord-iterm2のリポジトリをクローン
+
+```
+$ git clone https://github.com/arcticicestudio/nord-iterm2.git 
+```
+
+2. `Command + ,`で`Preferences`を開く
+
+3. 上部の`Profiles`をクリック
+
+4. `Colors`タブをクリック
+
+5. 右下の`Color Presets`から`import`を選び、先ほどクローンしたリポジトリ中の`Nord.itermcolors`を選択3. 上部の`Profiles`をクリック
+
+`nord-iterm2/src/xml/Nord.itermcolors`にありました。
+
+6. `Color Presets`に`Nord`が出現しているのでそれを選択
+
+これでiterm2にNordテーマが適用されます。
+
+# まとめ
+
+iterm2にNordを入れてみました。
+クールで見やすいおすすめのテーマです。
+
+## 参考
+
+- [nord-iterm2](https://github.com/arcticicestudio/nord-iterm2)
