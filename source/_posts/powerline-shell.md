@@ -83,7 +83,7 @@ source ~/.zshrc
 
 修正後はこんな感じになりました。
 
-![](http://drive.google.com/uc?export=view&id=1f2J_0j50ThaJCk_m_0Sjg1tqISgJ7SP-)
+![](https://drive.google.com/uc?export=view&id=1f2J_0j50ThaJCk_m_0Sjg1tqISgJ7SP-)
 
 ## 設定ファイルを作成
 

@@ -36,7 +36,7 @@ Nordの[公式サイト](https://www.nordtheme.com/ports/jetbrains)にインス�
 
 `Preferences > Plugins > Nordで検索 > Install`
 
-![](http://drive.google.com/uc?export=view&id=10BYtduhw2cM0VlM5gC8bE0BY5hsHMODq)
+![](https://drive.google.com/uc?export=view&id=10BYtduhw2cM0VlM5gC8bE0BY5hsHMODq)
 
 OK押して完了。　
 

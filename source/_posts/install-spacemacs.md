@@ -59,11 +59,11 @@ mv .emacs .emacs.bak
 
 左上のアイコンにダウンロードしてきたアイコンファイルをドラッグアンドドロップします。
 
-![](http://drive.google.com/uc?export=view&id=17DHBb36EDhNrGUbCqHHE0Z1wyDtuNJI0)
+![](https://drive.google.com/uc?export=view&id=17DHBb36EDhNrGUbCqHHE0Z1wyDtuNJI0)
 
 するとアイコンがspacemacsのものに変化します。
 
-![](http://drive.google.com/uc?export=view&id=1b_u7bYXEtXFhQuMa3x5yodNW_YqbUjQD)
+![](https://drive.google.com/uc?export=view&id=1b_u7bYXEtXFhQuMa3x5yodNW_YqbUjQD)
 
 Emacsを再起動すると、Dockのアイコンがspacemacsのものになっています。
 
