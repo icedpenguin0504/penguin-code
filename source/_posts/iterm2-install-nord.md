@@ -21,10 +21,10 @@ item2がすごいらしいとの噂だったので、ターミナルエミュレ
 
 [リポジトリ](https://github.com/arcticicestudio/nord-iterm2)のREADMEにきっちり書いてありますが、細かいところを補いながらインストールして適用するまでの手順をまとめます。
 
-1. 適当なデイレクトりにnord-iterm2のリポジトリをクローン
+1. 適当なデイレクトリにnord-iterm2のリポジトリをクローン
 
 ```
-$ git clone https://github.com/arcticicestudio/nord-iterm2.git 
+git clone https://github.com/arcticicestudio/nord-iterm2.git 
 ```
 
 2. `Command + ,`で`Preferences`を開く
@@ -33,7 +33,7 @@ $ git clone https://github.com/arcticicestudio/nord-iterm2.git
 
 4. `Colors`タブをクリック
 
-5. 右下の`Color Presets`から`import`を選び、先ほどクローンしたリポジトリ中の`Nord.itermcolors`を選択3. 上部の`Profiles`をクリック
+5. 右下の`Color Presets`から`import`を選び、先ほどクローンしたリポジトリ中の`Nord.itermcolors`を選択
 
 `nord-iterm2/src/xml/Nord.itermcolors`にありました。
 
