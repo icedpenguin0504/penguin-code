@@ -15,6 +15,11 @@ VimにもNordをインストールしてみたので、その手順のメモで�
 
 ## 環境
 
+- macOS 10.15.6
+- iterm2 3.3.12
+
+僕はitemr2上でvimを起動しているので、先にiterm2にNordを適用しておきます。具体的な方法は[こちら](https://penguin-code.com/iterm2-install-nord/)。
+
 # Nordとは
 
 寒色系のクールなダークテーマ。
@@ -22,6 +27,8 @@ VimにもNordをインストールしてみたので、その手順のメモで�
 ![](https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/vim/overview-go-nerdtree.png)
 
 # インストール手順
+
+iTerm2にNordをインストールしていない場合は、[こちら](https://penguin-code.com/iterm2-install-nord/)。を参考にインストールしておきます。
 
 ## プラグインマネージャをインストール
 
