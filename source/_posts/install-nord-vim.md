@@ -3,7 +3,7 @@ title: VimにNordテーマを適用
 date: 2020-06-21 14:20:05
 tags:
 - vim
-- nord
+- Nord
 category:
 - Tech
 - ツール
@@ -45,7 +45,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 以上。
 
-## nordをインストール
+## Nordをインストール
 
 vim-plugを使ってnordをインストールします。
 `.vimrc`を開き、`arcticicestudio/nord-vim`をプラグインに追加します。
@@ -53,10 +53,10 @@ vim-plugを使ってnordをインストールします。
 
 ```vim
 call plug#begin('~/.vim/plugged')
- Plug 'arcticicestudio/nord-vim'
- call plug#end()
+Plug 'arcticicestudio/nord-vim'
+call plug#end()
 
- colorscheme nord
+colorscheme nord
 ```
 
 # まとめ
