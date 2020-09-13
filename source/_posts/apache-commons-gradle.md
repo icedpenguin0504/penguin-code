@@ -1,4 +1,5 @@
 ---
+date: 2020-08-18
 title: Apache Commons IO をGradleプロジェクトに導入
 tags:
 - gradle

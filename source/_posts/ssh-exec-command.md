@@ -1,4 +1,5 @@
 ---
+date: 2020-8-4
 title: sshでサーバ上でコマンドを実行する
 tags:
 - ssh

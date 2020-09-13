@@ -1,4 +1,5 @@
 ---
+date: 2020-8-29
 title: 【HTML】 formでGETメソッドを指定し、クエリ文字列付きのURLを構成する
 tags:
 - HTML

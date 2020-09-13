@@ -1,4 +1,6 @@
 ---
+date: 2020-5-6
+updated: 2020-8-28
 title: Macにspacemacsを入れてみた
 tags:
 - spacemacs

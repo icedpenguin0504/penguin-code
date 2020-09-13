@@ -1,4 +1,5 @@
 ---
+date: 2020-7-30
 title: MySQLを停止できない：ERROR! MySQL server PID file could not be found!
 category:
 - Tech

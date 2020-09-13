@@ -1,4 +1,6 @@
 ---
+date: 2020-6-24
+updated: 2020-9-6
 title: .ideavimrcが反映されない問題の解決
 category:
 - Tech

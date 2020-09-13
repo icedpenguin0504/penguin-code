@@ -1,4 +1,6 @@
 ---
+date: 2020-6-9
+updated: 2020-8-30
 title: iterm2にNordテーマを適用してみた
 category:
 - Tech

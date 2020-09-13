@@ -1,4 +1,5 @@
 ---
+date: 2020-5-16
 title: "[Kotlin] コレクション"
 tags:
 - kotlin

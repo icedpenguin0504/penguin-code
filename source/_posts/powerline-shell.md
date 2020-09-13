@@ -1,4 +1,6 @@
 ---
+date: 2020-6-14
+updated: 2020-8-28
 title: Powerline-Shellを使ってみる
 category:
 - Tech
